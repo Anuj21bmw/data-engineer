@@ -1,0 +1,96 @@
+2025-06-29 00:04:25,034 - INFO - ============================================================
+2025-06-29 00:04:25,034 - INFO - 🚀 DATA ENGINEERING ETL PIPELINE STARTING
+2025-06-29 00:04:25,034 - INFO - ============================================================
+2025-06-29 00:04:25,108 - INFO - ✅ Successfully connected to MySQL database
+2025-06-29 00:04:25,108 - INFO - Creating database schema...
+2025-06-29 00:04:25,307 - WARNING - SQL warning: 3730 (HY000): Cannot drop table 'properties' referenced by a foreign key constraint 'valuations_ibfk_1' on table 'valuations'.
+2025-06-29 00:04:25,307 - INFO - ✅ Database schema created successfully
+2025-06-29 00:04:25,308 - INFO - Reading CSV file: sql/fake_data.csv
+2025-06-29 00:04:25,373 - INFO - ✅ Successfully loaded 10000 records from CSV
+2025-06-29 00:04:25,373 - INFO - 📊 Data shape: (10000, 66)
+2025-06-29 00:04:25,373 - INFO - 📋 Columns: ['Property_Title', 'Address', 'Reviewed_Status', 'Most_Recent_Status', 'Source', 'Market', 'Occupancy', 'Flood', 'Street_Address', 'City']...
+2025-06-29 00:04:25,373 - INFO - 🧹 Cleaning data...
+2025-06-29 00:04:25,405 - INFO - ✅ Data cleaning completed
+2025-06-29 00:04:25,406 - INFO - Loading properties...
+2025-06-29 00:04:26,101 - ERROR - ❌ ETL Pipeline failed: 1054 (42S22): Unknown column 'property_type' in 'field list'
+2025-06-29 00:04:26,102 - INFO - Database connection closed
+2025-06-29 00:06:09,413 - INFO - ============================================================
+2025-06-29 00:06:09,413 - INFO - 🚀 DATA ENGINEERING ETL PIPELINE STARTING
+2025-06-29 00:06:09,413 - INFO - ============================================================
+2025-06-29 00:06:09,462 - INFO - ✅ Successfully connected to MySQL database
+2025-06-29 00:06:09,462 - INFO - Creating database schema...
+2025-06-29 00:06:09,471 - WARNING - SQL warning: 3730 (HY000): Cannot drop table 'properties' referenced by a foreign key constraint 'valuations_ibfk_1' on table 'valuations'.
+2025-06-29 00:06:09,471 - INFO - ✅ Database schema created successfully
+2025-06-29 00:06:09,471 - INFO - Reading CSV file: sql/fake_data.csv
+2025-06-29 00:06:09,535 - INFO - ✅ Successfully loaded 10000 records from CSV
+2025-06-29 00:06:09,535 - INFO - 📊 Data shape: (10000, 66)
+2025-06-29 00:06:09,535 - INFO - 📋 Columns: ['Property_Title', 'Address', 'Reviewed_Status', 'Most_Recent_Status', 'Source', 'Market', 'Occupancy', 'Flood', 'Street_Address', 'City']...
+2025-06-29 00:06:09,535 - INFO - 🧹 Cleaning data...
+2025-06-29 00:06:09,565 - INFO - ✅ Data cleaning completed
+2025-06-29 00:06:09,566 - INFO - Loading properties...
+2025-06-29 00:06:10,226 - ERROR - ❌ ETL Pipeline failed: 1054 (42S22): Unknown column 'property_type' in 'field list'
+2025-06-29 00:06:10,230 - INFO - Database connection closed
+2025-06-29 00:06:53,824 - INFO - ============================================================
+2025-06-29 00:06:53,824 - INFO - 🚀 STARTING ETL PIPELINE
+2025-06-29 00:06:53,824 - INFO - ============================================================
+2025-06-29 00:06:53,871 - INFO - ✅ Successfully connected to MySQL database
+2025-06-29 00:06:53,871 - INFO - Creating database schema...
+2025-06-29 00:06:53,966 - INFO - ✅ Database schema created successfully
+2025-06-29 00:06:53,966 - INFO - Loading CSV data...
+2025-06-29 00:06:54,025 - INFO - ✅ Successfully loaded 10000 records from sql/fake_data.csv
+2025-06-29 00:06:54,025 - INFO - 📊 Data shape: (10000, 66)
+2025-06-29 00:06:54,025 - INFO - 🧹 Cleaning data...
+2025-06-29 00:06:54,043 - INFO - ✅ Data cleaning completed
+2025-06-29 00:06:54,044 - INFO - Loading properties...
+2025-06-29 00:06:54,682 - INFO - ✅ Loaded 10000 properties
+2025-06-29 00:06:54,686 - INFO - Loading HOA details...
+2025-06-29 00:06:55,034 - INFO - ✅ Loaded 9974 HOA records
+2025-06-29 00:06:55,035 - INFO - Loading rehab estimates...
+2025-06-29 00:06:55,374 - INFO - ✅ Loaded 10000 rehab records
+2025-06-29 00:06:55,374 - INFO - Loading valuations...
+2025-06-29 00:06:56,745 - INFO - ✅ Loaded 50000 valuation records
+2025-06-29 00:06:56,755 - INFO - 🔍 Verifying data...
+2025-06-29 00:06:56,760 - INFO - 📊 properties: 10,000 records
+2025-06-29 00:06:56,761 - INFO - 📊 hoa_details: 9,974 records
+2025-06-29 00:06:56,762 - INFO - 📊 rehab_estimates: 10,000 records
+2025-06-29 00:06:56,765 - INFO - 📊 valuations: 50,000 records
+2025-06-29 00:06:56,766 - INFO - 📈 Total records across all tables: 79,974
+2025-06-29 00:06:56,767 - INFO - 🔍 Sample properties:
+2025-06-29 00:06:56,767 - INFO -   - 882 James Haven Apt. 909 East Shannon, LA 80727: 882 James Haven Apt. 909 East Shannon, LA 80727, East Shannon, LA
+2025-06-29 00:06:56,767 - INFO -   - 15521 Matthew Parkways South Lisahaven, AL 42154: 15521 Matthew Parkways South Lisahaven, AL 42154, South Lisahaven, AL
+2025-06-29 00:06:56,767 - INFO -   - 913 John Brook Johnsontown, MT 09915: 913 John Brook Johnsontown, MT 09915, Johnsontown, MT
+2025-06-29 00:06:56,768 - INFO - ============================================================
+2025-06-29 00:06:56,769 - INFO - 🎉 ETL PIPELINE COMPLETED in 0:00:02.944427
+2025-06-29 00:06:56,769 - INFO - ============================================================
+2025-06-29 00:28:11,491 - INFO - ============================================================
+2025-06-29 00:28:11,492 - INFO - 🚀 STARTING ETL PIPELINE
+2025-06-29 00:28:11,492 - INFO - ============================================================
+2025-06-29 00:28:11,600 - INFO - Successfully connected to MySQL database
+2025-06-29 00:28:11,601 - INFO - Creating database schema...
+2025-06-29 00:28:11,963 - INFO - Database schema created successfully
+2025-06-29 00:28:11,963 - INFO - Loading CSV data...
+2025-06-29 00:28:12,032 - INFO - Successfully loaded 10000 records from sql/fake_data.csv
+2025-06-29 00:28:12,032 - INFO - Data shape: (10000, 66)
+2025-06-29 00:28:12,032 - INFO - 🧹 Cleaning data...
+2025-06-29 00:28:12,054 - INFO - Data cleaning completed
+2025-06-29 00:28:12,054 - INFO - Loading properties...
+2025-06-29 00:28:13,001 - INFO - Loaded 10000 properties
+2025-06-29 00:28:13,003 - INFO - Loading HOA details...
+2025-06-29 00:28:13,430 - INFO - Loaded 9974 HOA records
+2025-06-29 00:28:13,432 - INFO - Loading rehab estimates...
+2025-06-29 00:28:13,856 - INFO - Loaded 10000 rehab records
+2025-06-29 00:28:13,858 - INFO - Loading valuations...
+2025-06-29 00:28:15,413 - INFO - Loaded 50000 valuation records
+2025-06-29 00:28:15,418 - INFO - 🔍 Verifying data...
+2025-06-29 00:28:15,421 - INFO - 📊 properties: 10,000 records
+2025-06-29 00:28:15,422 - INFO - 📊 hoa_details: 9,974 records
+2025-06-29 00:28:15,424 - INFO - 📊 rehab_estimates: 10,000 records
+2025-06-29 00:28:15,428 - INFO - 📊 valuations: 50,000 records
+2025-06-29 00:28:15,428 - INFO - 📈 Total records across all tables: 79,974
+2025-06-29 00:28:15,429 - INFO - 🔍 Sample properties:
+2025-06-29 00:28:15,429 - INFO -   - 882 James Haven Apt. 909 East Shannon, LA 80727: 882 James Haven Apt. 909 East Shannon, LA 80727, East Shannon, LA
+2025-06-29 00:28:15,429 - INFO -   - 15521 Matthew Parkways South Lisahaven, AL 42154: 15521 Matthew Parkways South Lisahaven, AL 42154, South Lisahaven, AL
+2025-06-29 00:28:15,429 - INFO -   - 913 John Brook Johnsontown, MT 09915: 913 John Brook Johnsontown, MT 09915, Johnsontown, MT
+2025-06-29 00:28:15,429 - INFO - ============================================================
+2025-06-29 00:28:15,429 - INFO - 🎉 ETL PIPELINE COMPLETED in 0:00:03.937661
+2025-06-29 00:28:15,429 - INFO - ============================================================

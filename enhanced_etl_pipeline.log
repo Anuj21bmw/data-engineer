@@ -1,0 +1,7 @@
+2025-06-28 23:57:13,494 - INFO - ============================================================
+2025-06-28 23:57:13,494 - INFO - 🚀 ENHANCED DATA ENGINEERING ETL PIPELINE STARTING
+2025-06-28 23:57:13,494 - INFO - ============================================================
+2025-06-28 23:57:13,624 - INFO - ✅ Successfully connected to MySQL database
+2025-06-28 23:57:13,624 - INFO - Creating enhanced database schema...
+2025-06-28 23:57:13,624 - ERROR - ❌ Schema file sql/01_create_enhanced_schema.sql not found
+2025-06-28 23:57:13,625 - INFO - Database connection closed
